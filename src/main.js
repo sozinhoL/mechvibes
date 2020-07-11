@@ -122,7 +122,7 @@ if (!gotTheLock) {
         },
       },
       {
-        label: 'Enable at Startup',
+        label: 'Ativar na inicialização',
         type: 'checkbox',
         checked: startupHandler.isEnabled,
         click: function() {
@@ -130,7 +130,7 @@ if (!gotTheLock) {
         }
       },
       {
-        label: 'Quit',
+        label: 'Sair',
         click: function() {
           // quit
           app.isQuiting = true;

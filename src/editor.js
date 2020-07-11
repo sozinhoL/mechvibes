@@ -76,12 +76,12 @@ Object.keys(pack_data.defines).map(kc => {
                   <div style="font-weight: bold; margin-right: 10px">${os_keycode[key]}</div>
                   <div class="define-mode define-mode-single">
                     <div style="display: flex;">
-                      <input type="number" placeholder="Start..." style="margin-right: 5px; width: 60px;" class="key-define custom-input sound-start" data-keycode="${key}"/>
-                      <input type="number" placeholder="Length..." style=" width: 60px;" class="key-define custom-input sound-length" data-keycode="${key}"/>
+                      <input type="number" placeholder="Começar..." style="margin-right: 5px; width: 60px;" class="key-define custom-input sound-start" data-keycode="${key}"/>
+                      <input type="number" placeholder="Comprimento..." style=" width: 60px;" class="key-define custom-input sound-length" data-keycode="${key}"/>
                     </div>
                   </div>
                   <div class="define-mode define-mode-multi">
-                    <input type="text" placeholder="File name..." style="margin-right: 5px; width: 100%;" class="key-define custom-input sound-file" data-keycode="${key}"/>
+                    <input type="text" placeholder="Nome do arquivo..." style="margin-right: 5px; width: 100%;" class="key-define custom-input sound-file" data-keycode="${key}"/>
                   </div>
                 </div>
               `);
@@ -230,21 +230,21 @@ Object.keys(pack_data.defines).map(kc => {
     const popover = $(`
       <div class="popover ${up ? 'up' : ''} ${left ? 'left' : ''}" style="min-width: 250px; position: absolute">
         <div class="define-mode define-mode-single" style="margin-bottom: 10px">
-          <div style="margin-bottom: 5px">Set start and length (ms)</div>
+          <div style="margin-bottom: 5px">Definir início e duração (ms)</div>
           <div style="display: flex;">
-            <input type="number" placeholder="Start..." style="margin-right: 10px; width: 50%;" class="key-define custom-input sound-start"/>
-            <input type="number" placeholder="Length..." style="width: 50%" class="key-define custom-input sound-length"/>
+            <input type="number" placeholder="Começar..." style="margin-right: 10px; width: 50%;" class="key-define custom-input sound-start"/>
+            <input type="number" placeholder="Comprimento..." style="width: 50%" class="key-define custom-input sound-length"/>
           </div>
         </div>
 
         <div class="define-mode define-mode-multi" style="margin-bottom: 10px">
-          <div style="margin-bottom: 5px">Enter audio file name:</div>
-          <input type="text" placeholder="Sound file name..."  class="key-define custom-input sound-name" style="width: 95%; margin-right: 10px;"/>
+          <div style="margin-bottom: 5px">Digite o nome do áudio:</div>
+          <input type="text" placeholder="Nome do áudio..."  class="key-define custom-input sound-name" style="width: 95%; margin-right: 10px;"/>
         </div>
 
         <div style="display: flex; justify-content: space-between">
-          <button class="save">Save</button>
-          <button class="close">Close</button>
+          <button class="save">Salvar</button>
+          <button class="close">Fechar</button>
         </div>
       </div>
     `);

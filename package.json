@@ -2,11 +2,12 @@
   "name": "mechvibes",
   "productName": "Mechvibes",
   "version": "v2.1.1",
-  "description": "Play mechanical keyboard sounds as you type.",
+  "description": "Play mechanical keyboard sounds as you type.\n Tocar sons de teclado mecânico enquanto você digita.",
   "repository": "https://github.com/hainguyents13/mechvibes",
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
+    "dev": "nodemon electron .",
     "build:win": "electron-builder -w",
     "build:mac": "electron-builder -m",
     "build:linux": "electron-builder -l"
@@ -104,6 +105,6 @@
     "electron": "^6.1.5",
     "electron-builder": "^21.2.0",
     "electron-compile": "^6.4.4",
-    "electron-packager": "^14.1.1"
+    "nodemon": "^2.0.4"
   }
 }

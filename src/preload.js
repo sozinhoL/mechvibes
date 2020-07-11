@@ -29,7 +29,7 @@ const all_sound_files = {};
 // load all pack
 async function loadPacks(status_display_elem, app_body) {
   // init
-  status_display_elem.innerHTML = 'Loading...';
+  status_display_elem.innerHTML = 'Carregando...';
   packs = [];
 
   // get all audio folders
