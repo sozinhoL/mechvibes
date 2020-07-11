@@ -2,22 +2,22 @@
 
 # Mechvibes
 
-It's a side project that I made for myself since when I use my own mechanical keyboard at late night or in the office and my parents and my coworkers hate that a lot because the sound of the keyboard is very loud (especially in quiet places). So if you are facing this issue just like me then this product is for you!
+É um projeto paralelo que eu desenvolvi desde quando uso meu próprio teclado mecânico tarde da noite ou no escritório e meus pais e meus colegas de trabalho odeiam muito isso porque o som do teclado é muito alto (especialmente em locais calmos). Então, se você está enfrentando esse problema como eu, então este produto é para você!
 
-- You can add more keyboard sound set by recording any sound you like and add them to this app with some easy steps.
+- Você pode adicionar mais sons ao teclado gravando qualquer som que desejar e adicioná-los a este aplicativo com algumas etapas fáceis.
 
-- Use your laptop keyboard or non-mechanical keyboard at work and still hear your loved sound.
+- Use o teclado do laptop ou o teclado não mecânico no trabalho e ainda ouça o som que você ama.
 
-- Use this app as any purpose as you want (such as demo for the buyer about the keyboard sound before they buy it, custom any sound for any key...)
+- Use este aplicativo com qualquer finalidade que você desejar (como uma demonstração para o comprador sobre o som do teclado antes de comprá-lo, personalize qualquer som para qualquer tecla ...)
 
-With Mechvibes Editor, you can create a new sound pack, edit existing sound pack or share them with your friends.
+Com o Mechvibes Editor, você pode criar um novo pacote de sons, editar o pacote de sons existente ou compartilhá-los com seus amigos.
 
-### How to use
+### Como usar
 
-- Download it from [Releases](https://github.com/hainguyents13/mechvibes/releases/latest)
-- Run it.
-- Enjoy it.
+- Faça o download em [Releases](https://github.com/hainguyents13/mechvibes/releases/latest)
+- Executá-o.
+- Aproveite.
 
-### Issues
+### Problemas
 
-🤝 Any ideas are welcomed!
+🤝 Todas as idéias são bem-vindas!
