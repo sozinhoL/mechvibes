@@ -12,6 +12,8 @@
 
 Com o Mechvibes Editor, você pode criar um novo pacote de sons, editar o pacote de sons existente ou compartilhá-los com seus amigos.
 
+Repositorio original: [Mechvibes](https://github.com/hainguyents13/mechvibes/tree/v2.1.1)
+
 ### Como usar
 
 - Faça o download em [Releases](https://github.com/hainguyents13/mechvibes/releases/latest)
